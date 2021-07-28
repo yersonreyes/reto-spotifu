@@ -1,0 +1,14 @@
+.flex {
+  display: flex;
+}
+.flex > * {
+  border: 1px solid red !important;
+  flex-grow: 1;
+  flex-basis: 100px;
+  padding: 0 !important;
+}
+
+.flex > p {
+  flex-grow: 1;
+  flex-basis: 50px;
+}
