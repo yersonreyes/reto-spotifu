@@ -3,8 +3,9 @@
 @import "./body.css";
 @import "./links.css";
 @import "./button-icon.css";
-@import "./logo.css";
-@import "./list.css";
+@import "./sidebar.css";
+@import "./ellipsis.css";
+@import "./slider.css";
 
 :root {
   --primary: #00b050;
@@ -14,7 +15,7 @@
   --gray30: #282828;
   --gray40: #181818;
   --gray50: #121212;
-  --gray50: #000000;
+  --gray60: #000000;
   --basefontFamily: Avenir, Helvetica, sans-serif;
   --headline1: bold 2rem / normal var(--basefontFamily);
   --headline2: bold 1.5rem/1.75rem var(--basefontFamily);
