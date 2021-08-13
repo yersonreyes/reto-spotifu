@@ -1,8 +1,14 @@
+@import "./playlist-a.css";
+@import "./playlist-b.css";
 .playlistList {
 }
 .playlistList-top {
   padding-block: 0.5rem;
   margin-block-end: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
 }
 .playlistList-title {
   font: var(--headline2);
