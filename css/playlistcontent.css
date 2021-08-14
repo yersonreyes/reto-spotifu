@@ -1,0 +1,75 @@
+.playlistContent {
+  inline-size: 100%;
+  block-size: 2rem;
+}
+
+.playlistContent-search form {
+  inline-size: 100%;
+  block-size: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  color: var(--gray10);
+}
+
+.playlistContent-search input {
+  background: transparent;
+  border: none;
+  font-size: 1rem;
+  color: var(--gray10);
+}
+
+.playlistContent-list {
+  inline-size: 100%;
+}
+
+.playlistContent-listHead {
+  block-size: 2.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--gray10);
+}
+
+.playlistContent-listcontent {
+  block-size: 2.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--white);
+}
+
+.listPlayIcon {
+  inline-size: 5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.listPlayTitle {
+  inline-size: 20rem;
+}
+
+.listPlayArtist {
+  inline-size: 17rem;
+}
+
+.listPlayAlbum {
+  inline-size: 17rem;
+}
+
+.listPlayCalendar {
+  inline-size: 5.6rem;
+}
+
+.listPlayTime {
+  inline-size: 2.75rem;
+}
+
+.listPlayCalendar span {
+  color: var(--gray10);
+}
+
+.listPlayTime span {
+  color: var(--gray10);
+}

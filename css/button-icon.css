@@ -8,6 +8,28 @@
   color: var(--gray10);
 }
 
+.buttonIconList {
+  inline-size: 2rem;
+  block-size: 2rem;
+  background: transparent;
+  border-radius: 50%;
+  border: 1px solid var(--white);
+  cursor: pointer;
+  color: var(--gray10);
+}
+
+.buttonIconLarge {
+  inline-size: 9.5rem;
+  block-size: 2rem;
+  background: transparent;
+  border-radius: 70px;
+  border: none;
+  cursor: pointer;
+  color: var(--gray10);
+  font-size: 1rem;
+  font: var(--baseFont);
+}
+
 .buttonIcon.is-white {
   background: var(--white);
   color: var(--gray50);
@@ -18,11 +40,23 @@
   color: var(--white);
 }
 
+.buttonIconLarge.is-primary {
+  background: var(--primary);
+  color: var(--white);
+}
+
 .buttonIcon .icon-play {
   position: relative;
   left: 1px;
   top: 1px;
 }
+
+.buttonIconList .icon-play {
+  position: relative;
+  left: 1px;
+  top: 1px;
+}
+
 .buttonIcon:active {
   transform: scale(0.95);
 }

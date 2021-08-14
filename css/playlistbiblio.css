@@ -1,0 +1,40 @@
+.layoutBiblio {
+  inline-size: 100%;
+
+  background: linear-gradient(
+      181.17deg,
+      rgba(47, 47, 47, 0) -35.3%,
+      #171717 66.2%
+    ),
+    url(../img/image-background.jpg);
+  background-size: cover;
+}
+.playlistbiblio {
+  display: flex;
+  justify-content: center;
+  margin-block-start: 5.4rem;
+}
+
+.playlistbiblio h2 {
+  font-size: 2rem;
+  font: var(--headline1);
+  color: var(--white);
+  margin: 0;
+}
+.playlistbiblio-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.playlistbiblio-topContent {
+  text-align: center;
+  font: var(--baseFont);
+  margin: 0;
+}
+
+.playlistbiblio-topContent p {
+  margin: 0;
+}
