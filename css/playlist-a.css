@@ -29,6 +29,7 @@
   vertical-align: middle;
   inline-size: 100%;
   block-size: auto;
+  object-fit: cover;
 }
 
 .playlistA-cover button {
