@@ -1,0 +1,36 @@
+.playBannerInfo{
+display: flex;
+gap: 1.5rem;
+
+max-block-size: 11.25rem;
+}
+.playBannerInfo-img{
+
+}
+
+.playBannerInfo-img img{
+max-inline-size: 19.5rem;
+max-block-size: 11.4rem;
+}
+.playBannerInfo-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.playBannerInfo-content h2{
+color: var(--white);
+font: var(--headline1);
+margin: 0;
+}
+
+.playBannerInfo-contentacc{
+
+}
+
+.playBannerInfo-contentacc p{
+margin: 0;
+color: var(--white);
+font: var(--baseFont);
+}

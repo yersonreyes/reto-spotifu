@@ -1,6 +1,7 @@
 .layoutBiblio {
   inline-size: 100%;
-
+}
+.layoutBiblioBg{
   background: linear-gradient(
       181.17deg,
       rgba(47, 47, 47, 0) -35.3%,
@@ -8,6 +9,7 @@
     ),
     url(../img/image-background.jpg);
   background-size: cover;
+
 }
 .playlistbiblio {
   display: flex;
